@@ -1,0 +1,26 @@
+{
+  "name": "strapi-provider-email-nodemailer-smtp",
+  "version": "1.0.0",
+  "description": "Nodemailer provide for Strapi with custom smtp server setup",
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Strapi",
+    "Email",
+    "Provider"
+  ],
+  "author": "Subhodip Deti",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "nodemailer": "^6.4.6"
+  },
+  "strapi": {
+    "isProvider": true
+  }
+}
