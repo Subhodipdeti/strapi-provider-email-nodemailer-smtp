@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-nodemailer-smtp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodemailer provide for Strapi with custom smtp server setup",
   "main": "./lib",
   "directories": {
@@ -17,8 +17,8 @@
   "author": "Subhodip Deti",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.15",
-    "nodemailer": "^6.4.6"
+    "lodash": ">=4.17.19",
+    "nodemailer": "^6.4.17"
   },
   "strapi": {
     "isProvider": true
